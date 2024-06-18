@@ -27,7 +27,7 @@ export const PlayVideoDot = styled.span`
     padding-left:5px;
     padding-right:5px;
 `
-export const PlaySocialButtonContainer = styled.div`
+export const PlaySocialButtonsContainer = styled.div`
     display:flex;
        justify-content:flex-end;
     align-items:center;
