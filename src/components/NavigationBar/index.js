@@ -1,7 +1,7 @@
 import {Component} from 'react'
 import {AiFillHome} from 'react-icons/ai'
 import {HiFire} from 'react-icons/hi'
-import {SiYoutubegaming} from 'react-icons/ai'
+import {SiYoutubegaming} from 'react-icons/si'
 import {CgPlayListAdd} from 'react-icons/cg'
 
 import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
@@ -97,7 +97,7 @@ class NavigationBar extends Component {
                   <NavLinkContainer
                     key="saved"
                     bgColor={activeTab === 'Saved' ? activeTabBg : 'none'}
-                    onClick={onClickTabGaming}
+                    onClick={onClickTabSaved}
                   >
                     <CgPlayListAdd
                       size={30}
